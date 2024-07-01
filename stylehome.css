@@ -1,0 +1,87 @@
+body{
+background-color:#FFDEAD;
+background-image: url('nextimgback.jpg');
+font-family:monospace;
+        background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-position:center;
+  background-size:cover;
+}
+.box{
+display:flex;
+
+justify-content:space-around;
+}
+
+h2{color:rgb(116, 35, 35);font-size:30px; font-weight: bold; text-align:center; }
+.bmi{
+    
+    text-align: center;
+height:300px;
+color:black;
+width:600px;
+font-size:20px;
+border:1px solid;
+padding-left: 50px;
+padding-top:50px;
+background-image: url('nextbox.avif.avif');
+    background-position:center;
+    background-size:cover;
+    border-radius: 20px;
+    border:0;
+border:0;
+}
+
+h1{
+font-size:50px;
+color:#77161e;
+font-family:monospace; 
+font-weight: bold;
+text-align:center;
+padding:20px;
+}
+.top{
+    font-size:25px;
+    color:	rgb(9, 44, 9);
+    font-family:monospace;
+    margin-left:120px; 
+    margin-right:120px; 
+
+}
+.tips{
+    border:1px solid;
+    width:400px;
+    background-image: url('nextbox.avif.avif');
+    background-position:center;
+    background-size:cover;
+    border:0;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+    
+
+.tipinfo{text-align: center;
+    font-size:25px;
+    color:#77161e;
+    font-family:monospace; 
+}
+label{
+    cursor: pointer;
+    color:3F1D38;
+    padding: 3px;
+    margin: 5px; font-weight: bold;}
+    
+
+    
+    
+    button{ padding:  10px;margin-left:150px;    background-color: transparent;
+        border-radius: 20px;
+     
+        color:#77161e; ;
+        
+    }
+ul{
+    font-size:20px;
+    color:	3F1D38;
+    font-family:monospace ;
+}

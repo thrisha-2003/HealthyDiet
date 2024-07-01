@@ -1,0 +1,57 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+
+
+ background-size:     cover;                   
+   
+    
+}
+
+body {
+    
+    line-height: 1.6;
+background-image: url('homeimg2.jpg');
+
+}
+.heading{
+font-family: Times New Roman (serif);
+font-size:80px;
+padding-top:200px;
+padding-left:600px;
+color:green;
+}
+.heading2{
+font-family: Times New Roman (serif);
+font-size:80px;color:green;
+
+padding-left:665px;
+}
+#myIMG {
+  vertical-align: 50px;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {vertical-align: 100px;}
+}
+nav ul {
+font-size:1.5vw;
+font-family:Monospace;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+ 
+}
+
+nav a {
+    color: purple;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+
+
